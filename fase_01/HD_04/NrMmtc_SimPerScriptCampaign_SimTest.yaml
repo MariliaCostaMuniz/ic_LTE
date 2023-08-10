@@ -1,10 +1,10 @@
 # ns-3 script configuration
 ns3Parameters:
 
-    ns3_path:  # Complete path of ns-3 simulator
-    ns3_script: my-lena-simple-epc   # Script with the main code (inside scratch folder without .cc)
-    cluster_path: /home/mcmuniz/ns-allinone-3.36/ns-3.36/ #MUDAR
-    CampaignTag: CampaignLteEPC          # Output filename
+    ns3_path:  /home/marilia/ns-allinone-3.36.1/ns-3.36.1 # Complete path of ns-3 simulator
+    ns3_script: mylena-simple-epc   # Script with the main code (inside scratch folder without .cc)
+    cluster_path: /home/mcmuniz/ns-allinone-3.36.1/ns-3.36.1/ #MUDAR
+    CampaignTag: CampaignLte_EPC          # Output filename
     simLocation: intel-256            # Set location of simulation (local or cluster)
 
 # Shell Script Parameters configuration
